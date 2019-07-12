@@ -1,0 +1,40 @@
+body
+{
+	background: #66ffff;
+}
+
+.titles{       
+ 	list-style-type: none; 
+ 	padding-left: 9em;
+ 	padding-top: 3em;
+ 	width:100%;
+ 	
+}
+
+a {
+    float: left;
+    width:200px;
+    text-decoration: none;
+    text-align:center;
+    color: white;
+    background-color: brown;   
+    border-right: 1px solid white;
+}
+
+a:hover
+{
+	background-color: black; 
+}
+
+.hpage{
+	margin:0em 10em 0em 10em;
+	background-color: white;
+	border:solid;
+}
+
+.hacad{
+	margin:0em 20em 0em 20em;
+	background-color: grey;
+	border:solid;
+}
+

@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>
+			Resume
+		</title>
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<style>
+			p{
+				text-align: center;
+				color :black;
+				font-size: 200%;
+			}
+			body
+{
+	background: #66ffff;
+}
+
+.titles{       
+ 	list-style-type: none; 
+ 	padding-left: 9em;
+ 	padding-top: 3em;
+ 	width:100%;
+ 	
+}
+
+a {
+    float: left;
+    width:200px;
+    text-decoration: none;
+    text-align:center;
+    color: white;
+    background-color: brown;   
+    border-right: 1px solid white;
+}
+
+a:hover
+{
+	background-color: black; 
+}
+
+.hpage{
+	margin:0em 10em 0em 10em;
+	background-color: white;
+	border:solid;
+}
+
+.hacad{
+	margin:0em 20em 0em 20em;
+	background-color: grey;
+	border:solid;
+}
+
+		</style>
+	</head>
+	
+	
+	<body >
+		<div class='nav' style="margin-left: 5%;margin-top:2%">
+			<ul class='titles'>
+				<li> <a href="success.ejs"> HOME </a></li>
+				<li> <a href="acad.ejs"> ACADMECIS</a></li>
+				<li> <a href="achivements.ejs"> ACHIEVEMENTS</a> </li>
+				<li> <a href="about.ejs"> ABOUT ME </a> </li>
+				<li> <a href="contact.ejs"> CONTACT ME </a> </li>
+				<li> <button type="button"  value="Logout" class="btn btn-danger" onclick="window.location='http://localhost:3000'">logout</button></li>
+			</ul>
+		</div>
+
+		<br><br><br>
+		<div class = 'hpage'>
+			<p> Welcome !!!!</p>
+		</div>
+
+	</body>
+</html>
