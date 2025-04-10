@@ -22,7 +22,7 @@ app.get("/forget/:id",function(req,res){
   service: 'gmail',
   auth: {
     user: 'shauryakhurana809@gmail.com',
-    pass: 'sk809000'
+    pass: '<your_pass>'
   }
  });
 
